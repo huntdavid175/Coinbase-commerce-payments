@@ -43,7 +43,7 @@ const getCharge = async (req: Request, res: Response) => {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
-      "X-CC-Api-Key": "8cfdab40-ef48-4634-acb6-b5eb9215404e",
+      "X-CC-Api-Key": process.env.COINBASE_COMMERCE_KEY,
     },
     data: data,
   };

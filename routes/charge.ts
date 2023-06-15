@@ -1,4 +1,4 @@
-import express, { Express, Router } from "express";
+import express, { Router } from "express";
 import { getCharge } from "../controllers/charge";
 
 const router: Router = express.Router();
